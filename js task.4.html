@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		  <meta charset="utf-8">
+		  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		 <title> website bs </title>
+	</head>
+	<style>
+	body{
+	background:#a2fce4;
+	}
+	b{
+	background:gray;
+	display:block;
+	padding:10px;
+	}
+	h1{
+	text-align:center;
+	}
+	</style>
+	<body>
+	<h1>java-script</h1>
+	<b>Print N numbers in sequence loop</b>
+	<script>
+	var n=parseInt(prompt("ender the frist number N="));
+	for (let i=1;i<=n;++i)  {
+	   document.write(i);
+	}
+	document.write("<br>");
+	</script>
+	<b> Print N numbers in reverse order loop</b>
+	<script>
+			var n=prompt("reverse order number N=");
+		    while(n);
+			document.write(n);
+			--n;
+			}/*note la(a=0,n=x,
+			b=n%10;
+			n=parseInt(n/10);
+			a=0*10+b;
+			)*/
+	</script>
+	<b>first N even numbers loop</b>
+   <script>
+	var n =parseInt(prompt("ender the frist number N="));
+	for (let i=1;i<=n;i++)  {
+	   document.write("(",2*i,")");
+	}
+	document.write("<br>");
+	</script>
+	<b>N odd numbers loop</b>
+	<script>
+	var n =parseInt(prompt("ender the frist number N="));
+	for (let i=1;i<=n;++i)  {
+	   document.write("(",2*i-1,")");
+	}
+	document.write("<br>");
+	</script>
+	<b>Swap Two Numbers Using function</b>
+	<script>
+	let n1=parseInt(prompt("ender the frist number N1="));
+	let n2=parseInt(prompt("ender the frist number N2="));
+	function sum(){
+	let a=n1+n2;
+	document.write(a);
+	}
+	sum();
+	</script>
+	<b>Use function and looping:</b>
+	<script>
+	let name=prompt("ender the user name");
+	let number=parseInt(prompt("number of times user name will print"));
+	function done(k,j){
+	for(let i=1;i<=j;++i){
+	document.write(k,"<br>");
+	}
+	}
+	done(name,number);
+	</script>
+	<b>Factorial of a number using for loop</b>
+	<script>
+	var n=parseInt(prompt("ender the frist number N1="));
+	var f=1;
+
+	
+	while(n){
+	var f=f*n;
+	--n;
+	}
+	document.write(f);
+	</script>
+	</body>
+</html>
